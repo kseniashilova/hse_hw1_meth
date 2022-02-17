@@ -40,7 +40,7 @@
 
 
 ## b) Дедупликация для всех образцов одновременно (Бонус 1)
-Чтобы провести дедупликацию одновременно нескольких файлов, нужно зупстить следующий скрипт:  
+Чтобы провести дедупликацию одновременно нескольких файлов, нужно запустить следующий скрипт:  
 ```
 ! ls /content/drive/MyDrive/bioinfHW1/cell8/SRR5836473_1_bismark_bt2_pe.bam /content/drive/MyDrive/bioinfHW1/epiblast/SRR3824222_1_bismark_bt2_pe.bam /content/drive/MyDrive/bioinfHW1/ICM/SRR5836475_1_bismark_bt2_pe.bam  | xargs -P 3 -tI{} deduplicate_bismark  --bam  --paired  -o {}.deduplicated {}
 ```
