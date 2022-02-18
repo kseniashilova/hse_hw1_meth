@@ -71,9 +71,19 @@
 
 
 ## e) Гистограмма распределения метилирования цитозинов по хромосоме
+```
+# гистограмма
+data = pd.read_csv('{id}_1_bismark_bt2_pe.bam.deduplicated.deduplicated.bedGraph', 
+                   delimiter='\t', names=['chr11', 'a', 'b', '%'], skiprows=1)
+plt.hist(data['%'], density=True, bins=100)
+plt.title('ICM SRR5836475')
+plt.xlabel('% methylation')
+plt.ylabel('density')
+plt.show()
+```
 ![](https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/hist_8cell.png)  
 ![](https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/hist_epiblast.png)  
 ![](https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/hist_icm.png)  
-## f) Уровень метилирования и покрытия для каждого образца
+## f) Уровень покрытия b метилирования для каждого образца
 ![](https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/image_cov.png)  
 ![](https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/image_meth.png)  
