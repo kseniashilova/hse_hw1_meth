@@ -60,6 +60,15 @@
 ```
 ! bismark_methylation_extractor --gzip --bedGraph --cytosine_report --genome_folder ./mouse_chr output_file_name.deduplicated.bam
 ```
-## d) Отчет и описание M-bias plot
+## d) Отчет и описание M-bias plot  
+<img src="https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/mbias_SRR5836473.PNG" width="500"> <img src="https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/mbias_SRR5836473_2.PNG" width="500">  
+  
+
+<img src="https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/mbias_SRR3824222.PNG" width="500"> <img src="https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/mbias_SRR3824222_2.PNG" width="500">
+  
+
+<img src="https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/mbias_SRR5836475.PNG" width="500"> <img src="https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/mbias_SRR5836475_2.PNG" width="500">
+
+
 ## e) Гистограмма распределения метилирования цитозинов по хромосоме
 ## f) Уровень метилирования и покрытия для каждого образца
