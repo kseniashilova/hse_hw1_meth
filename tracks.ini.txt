@@ -1,0 +1,51 @@
+[test bigwig]
+file = cell8_meth.bigWig.bw
+height = 7
+title = 8 cell
+number_of_bins = 10000
+color = pink
+min_value = 0
+
+[test bigwig]
+file = cell8_coverage.bigWig.bw
+height = 7
+title = 8 cell
+number_of_bins = 10000
+color = pink
+min_value = 0
+
+[spacer]
+
+[test bigwig]
+file = epiblast_meth.bigWig.bw
+height = 7
+title = Epiblast
+number_of_bins = 10000
+color = orange
+min_value = 0
+
+[test bigwig]
+file = epiblast_coverage.bigWig.bw
+height = 7
+title = Epiblast
+number_of_bins = 10000
+color = orange
+min_value = 0
+
+[spacer]
+
+[test bigwig]
+file = icm_meth.bigWig.bw
+height = 7
+title = ICM
+number_of_bins = 10000
+color = purple
+min_value = 0
+
+[test bigwig]
+file = icm_coverage.bigWig.bw
+height = 7
+title = ICM
+number_of_bins = 10000
+color = purple
+min_value = 0
