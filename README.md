@@ -71,4 +71,9 @@
 
 
 ## e) Гистограмма распределения метилирования цитозинов по хромосоме
+![](https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/hist_8cell.png)  
+![](https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/hist_epiblast.png)  
+![](https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/hist_icm.png)  
 ## f) Уровень метилирования и покрытия для каждого образца
+![](https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/image_cov.png)  
+![](https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/image_meth.png)  
