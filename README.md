@@ -5,6 +5,7 @@
 * SRR5836475 - ICM  
 Цель работы - изучение глобального изменения уровня CpG метилирования ДНК при раннем эмбриональном развитии мыши. А именно, наблюдение волн метилирования в процессе развития эмбриона. Выравнивание чтений производится только на 11 хромосому.  
 Работа с кодов в гугл колаб: https://colab.research.google.com/drive/1zk4iDLuzUEG2uOoBXiIe2MUqccNcWt6g?usp=sharing  
+Также код в отдельном файле можно найти [тут](https://github.com/kseniashilova/hse_hw1_meth/blob/main/Shilova_Ksenia_Methylation_ipynb_.ipynb).    
 # 1. Анализ отчета fastqc  
 Из предыдущей домашней работы приведу [отчет по multiqc](https://github.com/kseniashilova/hse_hw1_meth/blob/main/multiqc_RNA.html) для RNA-seq чтений для мыши. 
 Отчет для исследуемого образца (8 Cell) приведен на скриншотах ниже и [тут](https://github.com/kseniashilova/hse_hw1_meth/blob/main/SRR5836473_1_fastqc.html).  
