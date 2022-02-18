@@ -62,6 +62,7 @@
 ! bismark_methylation_extractor --gzip --bedGraph --cytosine_report --genome_folder ./mouse_chr output_file_name.deduplicated.bam
 ```
 ## d) Отчет и описание M-bias plot  
+Отчеты можно найти [тут для 8cell](https://github.com/kseniashilova/hse_hw1_meth/blob/main/SRR5836473_1_bismark_bt2_pe.deduplication_report.html), [тут для ICM](https://github.com/kseniashilova/hse_hw1_meth/blob/main/SRR5836475_1_bismark_bt2_pe.deduplication_report.html) и [тут для Epiblast](https://github.com/kseniashilova/hse_hw1_meth/blob/main/SRR3824222_1_bismark_bt2_pe.deduplication_report.html).    
 ##### Для 8 cell:  
 ![](https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/mbias_SRR5836473.PNG)  
 ![](https://github.com/kseniashilova/hse_hw1_meth/blob/main/pic/mbias_SRR5836473_2.PNG)   
